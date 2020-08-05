@@ -1,0 +1,44 @@
+body {
+  background-color: #285F89;
+}
+nav {
+  background-color: #F2F4F5;
+}
+nav ul {
+  padding: 15px;
+  overflow: hidden;
+  text-align: center;
+}
+nav li {
+  display: inline-block;
+  width: 200px;
+  height: 20px;
+  margin: 5px;
+  background-color: #285F89;
+}
+nav li a {
+  color: #F2F4F5;
+  text-decoration: none;
+}
+section {
+  height:350px;
+}
+section > p {
+  text-align: center;
+  padding-top: 150px;
+}
+.photo {
+  background-color: #F2F4F5;
+  border-bottom: 1px solid #285F89;
+}
+.photo > img {
+  float: left;
+  border: 10px solid #1367A6;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+footer {
+  background-color: #F2F4F5;
+  text-align: center;
+}

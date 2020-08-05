@@ -1,0 +1,35 @@
+body {
+  background-color: #285F89;
+}
+nav {
+  background-color: #F2F4F5;
+}
+nav ul {
+  padding: 15px;
+  overflow: hidden;
+  text-align: center;
+}
+nav li {
+  display: inline-block;
+  width: 200px;
+  height: 20px;
+  margin: 5px;
+  background-color: #285F89;
+}
+nav li a {
+  color: #F2F4F5;
+  text-decoration: none;
+}
+.aboutmain {
+  background-color: #F2F4F5;
+  text-align: left;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.aboutmain h1 {
+  margin-bottom: 0px;
+}
+footer {
+  background-color: #F2F4F5;
+  text-align: center;
+}
