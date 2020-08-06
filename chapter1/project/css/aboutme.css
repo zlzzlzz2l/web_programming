@@ -12,11 +12,13 @@ nav ul {
 nav li {
   display: inline-block;
   width: 200px;
-  height: 20px;
-  margin: 5px;
+  height: 30px;
+  padding: 3px;
+  box-shadow: 2px 2px 10px;
   background-color: #285F89;
 }
 nav li a {
+  line-height: 30px;
   color: #F2F4F5;
   text-decoration: none;
 }
@@ -25,8 +27,13 @@ nav li a {
   text-align: left;
   padding-left: 200px;
   padding-right: 200px;
+  height: 700px;
 }
-.aboutmain h1 {
+div{
+  text-align: left;
+  padding-top: 60px;
+}
+.aboutmain > h1 {
   margin-bottom: 0px;
 }
 footer {
